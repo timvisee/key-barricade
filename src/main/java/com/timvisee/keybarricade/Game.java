@@ -23,6 +23,7 @@
 package com.timvisee.keybarricade;
 
 import com.timvisee.keybarricade.game.asset.GameResourceBundle;
+import com.timvisee.keybarricade.game.scene.MainMenuScene;
 import com.timvisee.voxeltex.architecture.scene.DeveloperSplashScene;
 import com.timvisee.voxeltex.engine.VoxelTexEngine;
 import com.timvisee.voxeltex.util.swing.ProgressDialog;
@@ -98,9 +99,9 @@ public class Game {
         this.progressDialog.setStatus("Loading game resources...");
         GameResourceBundle.getInstance().load();
 
-        // Load the default scene
+        // Load the developer splash scene followed by the main menu scene scene
         this.progressDialog.setStatus("Loading scene...");
-        this.engine.getSceneManager().loadScene(new DeveloperSplashScene());
+        this.engine.getSceneManager().loadScene(new DeveloperSplashScene(new MainMenuScene()));
 
         // Done, hide the progress dialog before starting the engine
         this.progressDialog.setVisible(false);
