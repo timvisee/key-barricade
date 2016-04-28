@@ -1,5 +1,8 @@
 [![Build status for master branch](https://circleci.com/gh/timvisee/KeyBarricade/tree/master.svg?style=svg)](https://circleci.com/gh/timvisee/KeyBarricade/tree/master)
 [![Circle CI](https://circleci.com/gh/timvisee/KeyBarricade/tree/dev-timvisee.svg?style=svg)](https://circleci.com/gh/timvisee/KeyBarricade/tree/dev-timvisee)
+![Stargazers](https://img.shields.io/github/stars/timvisee/KeyBarricade.svg)
+![Forks](https://img.shields.io/github/forks/timvisee/KeyBarricade.svg)
+![Issues](https://img.shields.io/github/issues/timvisee/KeyBarricade.svg)
 
 #KeyBarricade
 
