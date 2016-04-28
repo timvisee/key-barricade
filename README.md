@@ -1,3 +1,6 @@
+[![Build status for master branch](https://circleci.com/gh/timvisee/KeyBarricade/tree/master.svg?style=svg)](https://circleci.com/gh/timvisee/KeyBarricade/tree/master)
+[![Circle CI](https://circleci.com/gh/timvisee/KeyBarricade/tree/dev-timvisee.svg?style=svg)](https://circleci.com/gh/timvisee/KeyBarricade/tree/dev-timvisee)
+
 #KeyBarricade
 
 Key Barricade is a simple Java game running on the VoxelTex engine.
