@@ -146,7 +146,7 @@ public class ObjectSpawnAnimatorComponent extends BaseComponent {
             this.meshRenderer.getColor().setAlpha(Math.min((Time.timeFloat - timeOffset) / 0.25f, 1));
 
         // Destroy the spawn animator after a second
-        if(Time.timeFloat - timeOffset > 1f) {
+        if(Time.timeFloat - timeOffset > 1.5f) {
             // Force-set the position of the box
             getTransform().setPosition(this.targetPosition);
 
