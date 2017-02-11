@@ -23,8 +23,8 @@
 package com.timvisee.keybarricade.game.level;
 
 import com.timvisee.keybarricade.game.asset.GameAssetLoader;
-import com.timvisee.yamlwrapper.configuration.ConfigurationSection;
-import com.timvisee.yamlwrapper.configuration.YamlConfiguration;
+import com.timvisee.yamlwrapper.ConfigurationSection;
+import com.timvisee.yamlwrapper.YamlConfiguration;
 
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -120,7 +120,7 @@ public class LevelManager {
         InputStream inputStream = GameAssetLoader.getInstance().loadResourceStream(LEVEL_FILE_PATH);
 
         // Load the YAML configuration
-        YamlConfiguration config = YamlConfiguration.loadConfiguration(inputStream);
+        YamlConfiguration config = YamlConfiguration.loadFromStream(inputStream);
 
         // Get a list of level indexes that are in the level configuration
         final List<String> levelIndexes = config.getKeys("levels");

@@ -29,7 +29,7 @@ import com.timvisee.keybarricade.game.entity.prefab.*;
 import com.timvisee.keybarricade.game.scene.GameScene;
 import com.timvisee.voxeltex.architecture.component.rigidbody.RigidbodyComponent;
 import com.timvisee.voxeltex.architecture.gameobject.GameObject;
-import com.timvisee.yamlwrapper.configuration.ConfigurationSection;
+import com.timvisee.yamlwrapper.ConfigurationSection;
 import org.joml.Vector3f;
 
 import java.util.ArrayList;

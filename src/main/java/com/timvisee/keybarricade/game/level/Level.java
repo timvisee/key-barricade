@@ -22,7 +22,7 @@
 
 package com.timvisee.keybarricade.game.level;
 
-import com.timvisee.yamlwrapper.configuration.ConfigurationSection;
+import com.timvisee.yamlwrapper.ConfigurationSection;
 
 public class Level {
 
