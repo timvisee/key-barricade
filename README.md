@@ -1,10 +1,10 @@
-[![Build status for master branch](https://circleci.com/gh/timvisee/KeyBarricade/tree/master.svg?style=svg)](https://circleci.com/gh/timvisee/KeyBarricade/tree/master)
-[![Circle CI](https://circleci.com/gh/timvisee/KeyBarricade/tree/dev-timvisee.svg?style=svg)](https://circleci.com/gh/timvisee/KeyBarricade/tree/dev-timvisee)
-![Stargazers](https://img.shields.io/github/stars/timvisee/KeyBarricade.svg)
-![Forks](https://img.shields.io/github/forks/timvisee/KeyBarricade.svg)
-![Issues](https://img.shields.io/github/issues/timvisee/KeyBarricade.svg)
+[![Build status for master branch](https://circleci.com/gh/timvisee/key-barricade/tree/master.svg?style=svg)](https://circleci.com/gh/timvisee/key-barricade/tree/master)
+[![Circle CI](https://circleci.com/gh/timvisee/key-barricade/tree/dev-timvisee.svg?style=svg)](https://circleci.com/gh/timvisee/key-barricade/tree/dev-timvisee)
+![Stargazers](https://img.shields.io/github/stars/timvisee/key-barricade.svg)
+![Forks](https://img.shields.io/github/forks/timvisee/key-barricade.svg)
+![Issues](https://img.shields.io/github/issues/timvisee/key-barricade.svg)
 
-#KeyBarricade
+# KeyBarricade
 
 Key Barricade is a simple Java game running on the VoxelTex engine.
 This game has been developed as example for VoxelTex engine development.
@@ -21,11 +21,11 @@ If you're interested in the VoxelTex engine or in developing your own games, che
 ---
 
 ### Running
-#####Build
+##### Build
 The latest available runnable Key Barricade build can be downloaded from it's builds page: http://ci.xephi.fr/job/KeyBarricade/
 You may also compile the project sources to create your very own build.
 
-#####Running requirements
+##### Running requirements
 >- Java 1.8 or higher
 >- OpenGL 2.1 or higher
 >- Windows or Linux operating system
@@ -36,12 +36,12 @@ Note: Mac OS X support has been dropped, due to various problems related to the 
 
 ### Compiling
 
-#####Compiling requirements
+##### Compiling requirements
 >- JDK 1.8
 >- Maven
 >- Git/GitHub (Optional)
 
-#####How to compile
+##### How to compile
 >- Clone the project with Git/GitHub
 >- Select the `windows` or `linux` profile.
 >- Compile with `mvn clean install -B`
