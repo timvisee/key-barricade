@@ -188,7 +188,7 @@
         <!-- Xephi repository -->
         <repository>
             <id>xephi-repo</id>
-            <url>http://ci.xephi.fr/plugin/repository/everything/</url>
+            <url>https://repo.codemc.org/repository/maven-public/</url>
         </repository>
 
         <!-- JOML OpenGL mathematics library -->
